@@ -1,0 +1,42 @@
+/* Estilos muy sencillos solo para que se vea algo mejor */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  background-color: #f5f5f5;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.explicacion {
+  text-align: center;
+}
+
+#info-no-react,
+#root {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.temperatura {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ciudad {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}

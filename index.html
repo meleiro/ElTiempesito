@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ejemplo API OpenWeather</title>
+
+  <!-- Hoja de estilos -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Ejemplo OpenWeather</h1>
+
+  <p class="explicacion">
+    Abre la consola del navegador (F12 &gt; Consola) para ver los resultados de
+    <code>fetch</code> y <code>axios</code>.
+  </p>
+
+  <!-- Usando JS "normal" (sin React) -->
+  <div id="info-no-react"></div>
+
+  <hr />
+
+  <!-- Aquí montaremos la versión con React -->
+  <h2>Versión con React (useEffect + useState)</h2>
+  <div id="root"></div>
+
+  <!-- Axios para el punto 3 -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <!-- React y ReactDOM (versión UMD para usar desde un script normal) -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Nuestro código principal -->
+  <script src="script.js"></script>
+</body>
+</html>
